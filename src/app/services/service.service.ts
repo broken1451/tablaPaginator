@@ -92,7 +92,6 @@ export class ServiceService {
     ];
   }
 
-    // Todos los heroes
     getData(): any[] {
       return this.data;
     }
