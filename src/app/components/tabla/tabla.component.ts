@@ -34,7 +34,7 @@ export class TablaComponent implements OnInit {
 
   ngOnInit(): void {
     this.data = this.service.getData();
-    console.log(this.data);
+    // console.log(this.data);l
     initPlugings();
   }
 
