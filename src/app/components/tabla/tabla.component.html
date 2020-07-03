@@ -1,0 +1,17 @@
+<!-- <input class="form-control" id="myInput" type="text" placeholder="Buscar.."> -->
+<table class="table mt-2 animate__animated animate__fadeIn" id="example">
+    <thead class="thead-dark text-center">
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">nombre</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr class="text-center" *ngFor="let data of data">
+        <td>{{data.id}}</td>
+        <td>{{data.nombre}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
